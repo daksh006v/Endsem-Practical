@@ -1,0 +1,8 @@
+echo "Hello!" > newfile.txt 
+git stash push -u 
+git stash list 
+git stash apply stash@{0} 
+git fetch origin 
+git rebase main
+git tag -a v1.1 
+git push origin v1.1

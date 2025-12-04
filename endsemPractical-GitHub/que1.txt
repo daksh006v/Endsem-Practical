@@ -1,0 +1,7 @@
+- git init
+- mkdir new
+- cd new
+- touch one.txt two.txt
+- git add .
+- git status
+- git commit -m "2 new files added"

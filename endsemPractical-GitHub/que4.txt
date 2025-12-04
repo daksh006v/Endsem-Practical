@@ -1,0 +1,14 @@
+=> fork any open-source repository by clicking the "fork" button on github
+
+git clone "url"
+cd <repo-name>
+
+git checkout -b my-feature-branch
+
+git add .
+
+git commit -m "Your commit message here"
+
+git push origin my-feature-branch
+
+=> create a pull request from your forked branch

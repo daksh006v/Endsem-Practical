@@ -1,0 +1,7 @@
+- git branch update-readme
+- git switch update-readme
+- echo "Hello! how are you?" > one.txt
+- git add .
+- git commit -m "added some text in one.txt"
+- git switch main
+- git merge update-readme
